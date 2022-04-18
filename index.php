@@ -8,9 +8,10 @@
 </head>
 <body>
 <?php 
-for($j=1;$j<=9;$j++){
-    echo '<tr>';
-    for($i=1;$i<=9;$i++){
+<h3>基礎九九乘法表</h3>
+for($j=1;$j<=9;$j++){ //行
+    echo '<tr>'; 
+    for($i=1;$i<=9;$i++){ //列
         echo "<td> $j X $i =" . ($j*$i) . "</td>";
      }
     echo "</tr>";
